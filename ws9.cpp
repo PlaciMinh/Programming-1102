@@ -53,7 +53,7 @@ int main(int argc, char* argv[]) {
 
     try {
         int total = rm.read(argv[1]);
-        std::cout << "Sum: " << total << std::endl;
+        std::cout << total << std::endl;
     } 
     catch (const std::exception& e) {
         std::cerr << "Exception caught in main: " << e.what() << std::endl;
